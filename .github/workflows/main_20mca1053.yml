@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: '20mca1053'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ded9ac5e96994c3290a6e2160597b083 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_add4011f83e64683be47bf8c5b608cc4 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
